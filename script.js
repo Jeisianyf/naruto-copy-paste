@@ -12,14 +12,10 @@ buttonCopy.addEventListener('click', (e) => {
     alert('Copied!');
 });
 
-// buttonCopyAll.addEventListener('click', (e) => {
-//     e.preventDefault();
+buttonCopyAll.addEventListener('click', (e) => {
+    e.preventDefault();
 
-//     navigator.clipboard.writeText(textAll);
-//     alert('Copied!')
-// })
-
-function copyAll() {
-    navigator.clipboard.writeText(textAll);
+    navigator.clipboard.writeText(textAll)
     alert('Copied!');
-}
+})
+
